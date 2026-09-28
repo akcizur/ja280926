@@ -1,0 +1,25 @@
+{
+  "version": "2.0.0-cinematic",
+  "scenes": [
+    { "sel": ".hero", "n": "00", "name": "INTRO", "hero": true },
+    { "sel": "#blur", "n": "01", "name": "BLUR" },
+    { "sel": "#gradient", "n": "02", "name": "GRADIENT" },
+    { "sel": "#fade", "n": "03", "name": "FADE" }
+  ],
+  "scene": {
+    "start": "top 88%",
+    "end": "bottom 12%",
+    "scrub": 0.55,
+    "enterEnd": 0.28,
+    "holdEnd": 0.66,
+    "enter": { "x": 42, "y": 28, "scale": 1.045, "blur": 9, "rotation": 1.9 },
+    "settle": { "scale": 1.01, "duration": 0.06 },
+    "exit": { "x": 36, "y": 20, "scale": 0.985, "blur": 7 },
+    "title": { "y": 108, "rotateX": 52, "stagger": 0.012, "blur": 6 },
+    "pointer": { "tilt": 4.5, "magnet": 0.11 }
+  },
+  "directions": { "blur": 1, "gradient": -1, "fade": 1 },
+  "hero": { "enterY": 28, "titleStagger": 0.034, "exitScale": 0.955, "exitY": -26, "exitBlur": 3 },
+  "mobileBreakpoint": 820,
+  "reducedMotion": { "disableScrub": true, "keepOpacity": true }
+}
