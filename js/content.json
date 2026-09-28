@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "title": "Cinematic Edge Motion · Living Grain",
+    "contentVersion": "1.0.0"
+  },
+  "nav": {
+    "ariaLabel": "Hlavní navigace",
+    "brand": "RUZICKAJAKUB",
+    "links": {
+      "landing": "LANDING",
+      "gradient": "GRADIENT",
+      "fade": "FADE"
+    },
+    "liveLabel": "(*icon-burger*)"
+  },
+  "hero": {
+    "eyebrow": "Cinematic edge motion · living canvas grain",
+    "title": {
+      "line1": "BLUR",
+      "line2": "AT THE",
+      "line3": "EDGE."
+    },
+    "description": "Symmetric top and bottom glass edges with smooth inertial scrolling, velocity response, layered parallax and living 35mm film grain that jitters 1px per frame."
+  },
+  "sections": {
+    "blur": {
+      "number": "01",
+      "title": "BLUR",
+      "description": "The fixed edge layers stay visually transparent while adapting their blur and glow to the movement of the page – now with fluid 0.09 lerp."
+    },
+    "gradient": {
+      "number": "02",
+      "title": "GRADIENT",
+      "description": "The gradient is strongest at each viewport boundary and softens toward the content, mirrored from top to bottom. Grain weaves with gate weave."
+    },
+    "fade": {
+      "number": "03",
+      "title": "FADE",
+      "description": "The masks remove the glass progressively, so there is no hard lower or upper panel edge while the parallax keeps depth alive. Canvas grain at half-res – 6 textures swapping every 2 frames."
+    }
+  },
+  "card": {
+    "label": "Effect stack",
+    "value": "inertia → velocity → parallax → glass edge → living grain"
+  },
+  "footer": {
+    "primary": "AIO HTML · symmetric edge glass / smooth inertia / velocity parallax",
+    "secondary": "LIVE GRAIN · 24FPS JITTER · canvas half-res · 6 textures · 1px jitter · gate weave · 35mm sparse"
+  }
+}
