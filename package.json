@@ -1,0 +1,10 @@
+{
+  "name": "ja280926",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cinematic Edge Motion — static visual experiment.",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
